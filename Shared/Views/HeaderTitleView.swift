@@ -19,6 +19,7 @@ struct HeaderTitleView: View {
             Text("Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion.")
                 .font(.title3)
                 .foregroundColor(.init("TitleColor"))
+                .lineSpacing(5)
                 .multilineTextAlignment(.center)
                 .fixedSize(horizontal: false, vertical: true)
         }

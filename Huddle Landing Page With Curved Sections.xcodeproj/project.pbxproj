@@ -15,6 +15,7 @@
 		90E89C2C283C8D6000BD2505 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90E89C19283C8D5F00BD2505 /* Assets.xcassets */; };
 		90E89C39283DA50500BD2505 /* TopNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E89C38283DA50500BD2505 /* TopNavigationView.swift */; };
 		90E89C3B283DA5F300BD2505 /* HeaderTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E89C3A283DA5F300BD2505 /* HeaderTitleView.swift */; };
+		90E89C3D283DA6DF00BD2505 /* GetStartedButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E89C3C283DA6DF00BD2505 /* GetStartedButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		90E89C26283C8D6000BD2505 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		90E89C38283DA50500BD2505 /* TopNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopNavigationView.swift; sourceTree = "<group>"; };
 		90E89C3A283DA5F300BD2505 /* HeaderTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderTitleView.swift; sourceTree = "<group>"; };
+		90E89C3C283DA6DF00BD2505 /* GetStartedButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetStartedButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 				90E89C18283C8D5F00BD2505 /* ContentView.swift */,
 				90E89C38283DA50500BD2505 /* TopNavigationView.swift */,
 				90E89C3A283DA5F300BD2505 /* HeaderTitleView.swift */,
+				90E89C3C283DA6DF00BD2505 /* GetStartedButtonView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -208,6 +211,7 @@
 			files = (
 				90E89C29283C8D6000BD2505 /* ContentView.swift in Sources */,
 				90E89C27283C8D6000BD2505 /* HuddleLandingPageWithCurvedSectionsApp.swift in Sources */,
+				90E89C3D283DA6DF00BD2505 /* GetStartedButtonView.swift in Sources */,
 				90E89C3B283DA5F300BD2505 /* HeaderTitleView.swift in Sources */,
 				90E89C39283DA50500BD2505 /* TopNavigationView.swift in Sources */,
 			);
