@@ -9,8 +9,19 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        ZStack {
+            Color.white
+            ScrollView {
+                VStack {
+                    TopNavigationView()
+                }
+                .padding(.top, 44)
+            }
+            .edgesIgnoringSafeArea(.all)
+            .onAppear {
+                UIScrollView.appearance().bounces = false
+            }
+        }
     }
 }
 
