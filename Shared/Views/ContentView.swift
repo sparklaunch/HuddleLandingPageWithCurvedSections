@@ -14,6 +14,9 @@ struct ContentView: View {
             ScrollView {
                 VStack {
                     TopNavigationView()
+                    Spacer()
+                        .frame(height: 64)
+                    HeaderTitleView()
                 }
                 .padding(.top, 44)
             }
