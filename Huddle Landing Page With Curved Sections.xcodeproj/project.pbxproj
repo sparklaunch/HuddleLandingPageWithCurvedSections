@@ -19,8 +19,8 @@
 		90E89C17283C8D5F00BD2505 /* HuddleLandingPageWithCurvedSectionsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuddleLandingPageWithCurvedSectionsApp.swift; sourceTree = "<group>"; };
 		90E89C18283C8D5F00BD2505 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		90E89C19283C8D5F00BD2505 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		90E89C1E283C8D6000BD2505 /* HuddleLandingPageWithCurvedSections.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HuddleLandingPageWithCurvedSections.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		90E89C24283C8D6000BD2505 /* HuddleLandingPageWithCurvedSections.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HuddleLandingPageWithCurvedSections.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		90E89C1E283C8D6000BD2505 /* Huddle Landing Page With Curved Sections.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Huddle Landing Page With Curved Sections.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90E89C24283C8D6000BD2505 /* Huddle Landing Page With Curved Sections.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Huddle Landing Page With Curved Sections.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		90E89C26283C8D6000BD2505 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -54,9 +54,9 @@
 		90E89C16283C8D5F00BD2505 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				90E89C17283C8D5F00BD2505 /* HuddleLandingPageWithCurvedSectionsApp.swift */,
-				90E89C18283C8D5F00BD2505 /* ContentView.swift */,
-				90E89C19283C8D5F00BD2505 /* Assets.xcassets */,
+				90E89C37283C8D8B00BD2505 /* Models */,
+				90E89C36283C8D8500BD2505 /* Views */,
+				90E89C35283C8D7B00BD2505 /* App */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -64,8 +64,8 @@
 		90E89C1F283C8D6000BD2505 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				90E89C1E283C8D6000BD2505 /* HuddleLandingPageWithCurvedSections.app */,
-				90E89C24283C8D6000BD2505 /* HuddleLandingPageWithCurvedSections.app */,
+				90E89C1E283C8D6000BD2505 /* Huddle Landing Page With Curved Sections.app */,
+				90E89C24283C8D6000BD2505 /* Huddle Landing Page With Curved Sections.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -78,12 +78,36 @@
 			path = macOS;
 			sourceTree = "<group>";
 		};
+		90E89C35283C8D7B00BD2505 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				90E89C17283C8D5F00BD2505 /* HuddleLandingPageWithCurvedSectionsApp.swift */,
+				90E89C19283C8D5F00BD2505 /* Assets.xcassets */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		90E89C36283C8D8500BD2505 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				90E89C18283C8D5F00BD2505 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		90E89C37283C8D8B00BD2505 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		90E89C1D283C8D6000BD2505 /* HuddleLandingPageWithCurvedSections (iOS) */ = {
+		90E89C1D283C8D6000BD2505 /* Huddle Landing Page With Curved Sections (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 90E89C2F283C8D6000BD2505 /* Build configuration list for PBXNativeTarget "HuddleLandingPageWithCurvedSections (iOS)" */;
+			buildConfigurationList = 90E89C2F283C8D6000BD2505 /* Build configuration list for PBXNativeTarget "Huddle Landing Page With Curved Sections (iOS)" */;
 			buildPhases = (
 				90E89C1A283C8D6000BD2505 /* Sources */,
 				90E89C1B283C8D6000BD2505 /* Frameworks */,
@@ -93,14 +117,14 @@
 			);
 			dependencies = (
 			);
-			name = "HuddleLandingPageWithCurvedSections (iOS)";
+			name = "Huddle Landing Page With Curved Sections (iOS)";
 			productName = "HuddleLandingPageWithCurvedSections (iOS)";
-			productReference = 90E89C1E283C8D6000BD2505 /* HuddleLandingPageWithCurvedSections.app */;
+			productReference = 90E89C1E283C8D6000BD2505 /* Huddle Landing Page With Curved Sections.app */;
 			productType = "com.apple.product-type.application";
 		};
-		90E89C23283C8D6000BD2505 /* HuddleLandingPageWithCurvedSections (macOS) */ = {
+		90E89C23283C8D6000BD2505 /* Huddle Landing Page With Curved Sections (macOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 90E89C32283C8D6000BD2505 /* Build configuration list for PBXNativeTarget "HuddleLandingPageWithCurvedSections (macOS)" */;
+			buildConfigurationList = 90E89C32283C8D6000BD2505 /* Build configuration list for PBXNativeTarget "Huddle Landing Page With Curved Sections (macOS)" */;
 			buildPhases = (
 				90E89C20283C8D6000BD2505 /* Sources */,
 				90E89C21283C8D6000BD2505 /* Frameworks */,
@@ -110,9 +134,9 @@
 			);
 			dependencies = (
 			);
-			name = "HuddleLandingPageWithCurvedSections (macOS)";
+			name = "Huddle Landing Page With Curved Sections (macOS)";
 			productName = "HuddleLandingPageWithCurvedSections (macOS)";
-			productReference = 90E89C24283C8D6000BD2505 /* HuddleLandingPageWithCurvedSections.app */;
+			productReference = 90E89C24283C8D6000BD2505 /* Huddle Landing Page With Curved Sections.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -133,7 +157,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 90E89C15283C8D5F00BD2505 /* Build configuration list for PBXProject "HuddleLandingPageWithCurvedSections" */;
+			buildConfigurationList = 90E89C15283C8D5F00BD2505 /* Build configuration list for PBXProject "Huddle Landing Page With Curved Sections" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -146,8 +170,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				90E89C1D283C8D6000BD2505 /* HuddleLandingPageWithCurvedSections (iOS) */,
-				90E89C23283C8D6000BD2505 /* HuddleLandingPageWithCurvedSections (macOS) */,
+				90E89C1D283C8D6000BD2505 /* Huddle Landing Page With Curved Sections (iOS) */,
+				90E89C23283C8D6000BD2505 /* Huddle Landing Page With Curved Sections (macOS) */,
 			);
 		};
 /* End PBXProject section */
@@ -243,6 +267,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -295,6 +321,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -324,7 +352,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = me.jinwook.kim.HuddleLandingPageWithCurvedSections;
-				PRODUCT_NAME = HuddleLandingPageWithCurvedSections;
+				PRODUCT_NAME = "Huddle Landing Page With Curved Sections";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -354,7 +382,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = me.jinwook.kim.HuddleLandingPageWithCurvedSections;
-				PRODUCT_NAME = HuddleLandingPageWithCurvedSections;
+				PRODUCT_NAME = "Huddle Landing Page With Curved Sections";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -384,7 +412,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = me.jinwook.kim.HuddleLandingPageWithCurvedSections;
-				PRODUCT_NAME = HuddleLandingPageWithCurvedSections;
+				PRODUCT_NAME = "Huddle Landing Page With Curved Sections";
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -412,7 +440,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = me.jinwook.kim.HuddleLandingPageWithCurvedSections;
-				PRODUCT_NAME = HuddleLandingPageWithCurvedSections;
+				PRODUCT_NAME = "Huddle Landing Page With Curved Sections";
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -422,7 +450,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		90E89C15283C8D5F00BD2505 /* Build configuration list for PBXProject "HuddleLandingPageWithCurvedSections" */ = {
+		90E89C15283C8D5F00BD2505 /* Build configuration list for PBXProject "Huddle Landing Page With Curved Sections" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				90E89C2D283C8D6000BD2505 /* Debug */,
@@ -431,7 +459,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		90E89C2F283C8D6000BD2505 /* Build configuration list for PBXNativeTarget "HuddleLandingPageWithCurvedSections (iOS)" */ = {
+		90E89C2F283C8D6000BD2505 /* Build configuration list for PBXNativeTarget "Huddle Landing Page With Curved Sections (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				90E89C30283C8D6000BD2505 /* Debug */,
@@ -440,7 +468,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		90E89C32283C8D6000BD2505 /* Build configuration list for PBXNativeTarget "HuddleLandingPageWithCurvedSections (macOS)" */ = {
+		90E89C32283C8D6000BD2505 /* Build configuration list for PBXNativeTarget "Huddle Landing Page With Curved Sections (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				90E89C33283C8D6000BD2505 /* Debug */,
