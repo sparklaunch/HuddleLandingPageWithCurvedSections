@@ -24,7 +24,10 @@ struct ContentView: View {
                     Spacer()
                         .frame(height: 64)
                     FiguresView()
-                    FirstTransitionView()
+                    VStack(spacing: .zero) {
+                        FirstTransitionView()
+                        GrowTogetherView()
+                    }
                 }
                 .padding(.top, 44)
             }
