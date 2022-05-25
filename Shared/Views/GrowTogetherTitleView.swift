@@ -20,6 +20,7 @@ struct GrowTogetherTitleView: View {
                 .fixedSize(horizontal: false, vertical: true)
         }
         .padding()
+        .padding(.vertical, 32)
     }
 }
 

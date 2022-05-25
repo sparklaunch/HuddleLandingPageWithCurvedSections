@@ -27,6 +27,7 @@ struct ContentView: View {
                     VStack(spacing: .zero) {
                         FirstTransitionView()
                         GrowTogetherView()
+                        SecondTransitionView()
                     }
                 }
                 .padding(.top, 44)

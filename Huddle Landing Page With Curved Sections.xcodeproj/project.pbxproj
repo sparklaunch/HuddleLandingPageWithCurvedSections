@@ -23,6 +23,7 @@
 		90E89C47283DAA3600BD2505 /* GrowTogetherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E89C46283DAA3600BD2505 /* GrowTogetherView.swift */; };
 		90E89C49283DAA5200BD2505 /* GrowTogetherIllustrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E89C48283DAA5200BD2505 /* GrowTogetherIllustrationView.swift */; };
 		90E89C4B283DAB1A00BD2505 /* GrowTogetherTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E89C4A283DAB1A00BD2505 /* GrowTogetherTitleView.swift */; };
+		90E89C4D283DABE800BD2505 /* SecondTransitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E89C4C283DABE800BD2505 /* SecondTransitionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		90E89C46283DAA3600BD2505 /* GrowTogetherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrowTogetherView.swift; sourceTree = "<group>"; };
 		90E89C48283DAA5200BD2505 /* GrowTogetherIllustrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrowTogetherIllustrationView.swift; sourceTree = "<group>"; };
 		90E89C4A283DAB1A00BD2505 /* GrowTogetherTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrowTogetherTitleView.swift; sourceTree = "<group>"; };
+		90E89C4C283DABE800BD2505 /* SecondTransitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTransitionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 				90E89C46283DAA3600BD2505 /* GrowTogetherView.swift */,
 				90E89C48283DAA5200BD2505 /* GrowTogetherIllustrationView.swift */,
 				90E89C4A283DAB1A00BD2505 /* GrowTogetherTitleView.swift */,
+				90E89C4C283DABE800BD2505 /* SecondTransitionView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -230,6 +233,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90E89C4D283DABE800BD2505 /* SecondTransitionView.swift in Sources */,
 				90E89C43283DA80300BD2505 /* FigureView.swift in Sources */,
 				90E89C29283C8D6000BD2505 /* ContentView.swift in Sources */,
 				90E89C3F283DA78000BD2505 /* HeaderIllustrationView.swift in Sources */,
