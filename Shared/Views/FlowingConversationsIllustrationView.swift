@@ -1,5 +1,5 @@
 //
-//  GrowTogetherIllustrationView.swift
+//  FlowingConversationsIllustrationView.swift
 //  Huddle Landing Page With Curved Sections (iOS)
 //
 //  Created by Jinwook Kim on 2022/05/25.
@@ -7,20 +7,18 @@
 
 import SwiftUI
 
-struct GrowTogetherIllustrationView: View {
+struct FlowingConversationsIllustrationView: View {
     var body: some View {
-        Image(decorative: "GrowTogether")
+        Image(decorative: "FlowingConversation")
             .resizable()
             .scaledToFit()
             .padding()
-            .padding(.top, 48)
     }
 }
 
-struct GrowTogetherIllustrationView_Previews: PreviewProvider {
+struct FlowingConversationsIllustrationView_Previews: PreviewProvider {
     static var previews: some View {
-        GrowTogetherIllustrationView()
-            .background(Color("BackgroundColor"))
+        FlowingConversationsIllustrationView()
             .previewLayout(.sizeThatFits)
     }
 }

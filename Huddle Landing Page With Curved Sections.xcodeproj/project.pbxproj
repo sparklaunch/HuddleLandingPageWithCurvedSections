@@ -24,6 +24,8 @@
 		90E89C49283DAA5200BD2505 /* GrowTogetherIllustrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E89C48283DAA5200BD2505 /* GrowTogetherIllustrationView.swift */; };
 		90E89C4B283DAB1A00BD2505 /* GrowTogetherTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E89C4A283DAB1A00BD2505 /* GrowTogetherTitleView.swift */; };
 		90E89C4D283DABE800BD2505 /* SecondTransitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E89C4C283DABE800BD2505 /* SecondTransitionView.swift */; };
+		90E89C4F283DAC6100BD2505 /* FlowingConversationsIllustrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E89C4E283DAC6100BD2505 /* FlowingConversationsIllustrationView.swift */; };
+		90E89C51283DADCC00BD2505 /* FlowingConversationsTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E89C50283DADCC00BD2505 /* FlowingConversationsTitleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +46,8 @@
 		90E89C48283DAA5200BD2505 /* GrowTogetherIllustrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrowTogetherIllustrationView.swift; sourceTree = "<group>"; };
 		90E89C4A283DAB1A00BD2505 /* GrowTogetherTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrowTogetherTitleView.swift; sourceTree = "<group>"; };
 		90E89C4C283DABE800BD2505 /* SecondTransitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTransitionView.swift; sourceTree = "<group>"; };
+		90E89C4E283DAC6100BD2505 /* FlowingConversationsIllustrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowingConversationsIllustrationView.swift; sourceTree = "<group>"; };
+		90E89C50283DADCC00BD2505 /* FlowingConversationsTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowingConversationsTitleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +128,8 @@
 				90E89C48283DAA5200BD2505 /* GrowTogetherIllustrationView.swift */,
 				90E89C4A283DAB1A00BD2505 /* GrowTogetherTitleView.swift */,
 				90E89C4C283DABE800BD2505 /* SecondTransitionView.swift */,
+				90E89C4E283DAC6100BD2505 /* FlowingConversationsIllustrationView.swift */,
+				90E89C50283DADCC00BD2505 /* FlowingConversationsTitleView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -237,6 +243,8 @@
 				90E89C43283DA80300BD2505 /* FigureView.swift in Sources */,
 				90E89C29283C8D6000BD2505 /* ContentView.swift in Sources */,
 				90E89C3F283DA78000BD2505 /* HeaderIllustrationView.swift in Sources */,
+				90E89C51283DADCC00BD2505 /* FlowingConversationsTitleView.swift in Sources */,
+				90E89C4F283DAC6100BD2505 /* FlowingConversationsIllustrationView.swift in Sources */,
 				90E89C27283C8D6000BD2505 /* HuddleLandingPageWithCurvedSectionsApp.swift in Sources */,
 				90E89C4B283DAB1A00BD2505 /* GrowTogetherTitleView.swift in Sources */,
 				90E89C3D283DA6DF00BD2505 /* GetStartedButtonView.swift in Sources */,

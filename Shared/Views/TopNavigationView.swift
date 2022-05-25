@@ -24,7 +24,7 @@ struct TopNavigationView: View {
                     .padding(.horizontal, 12)
                     .overlay(
                         Capsule(style: .continuous)
-                            .stroke()
+                            .stroke(Color("ButtonColor"), lineWidth: 1)
                     )
             }
         }

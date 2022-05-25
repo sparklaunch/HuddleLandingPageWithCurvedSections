@@ -14,20 +14,23 @@ struct ContentView: View {
             ScrollView {
                 VStack {
                     TopNavigationView()
-                    Spacer()
-                        .frame(height: 64)
-                    HeaderTitleView()
-                    GetStartedButtonView()
-                    Spacer()
-                        .frame(height: 48)
-                    HeaderIllustrationView()
-                    Spacer()
-                        .frame(height: 64)
+                    VStack {
+                        HeaderTitleView()
+                        GetStartedButtonView()
+                            .padding(.bottom, 48)
+                        HeaderIllustrationView()
+                    }
+                    .padding(.vertical, 64)
                     FiguresView()
                     VStack(spacing: .zero) {
                         FirstTransitionView()
                         GrowTogetherView()
                         SecondTransitionView()
+                    }
+                    .padding(.bottom, 64)
+                    VStack {
+                        FlowingConversationsIllustrationView()
+                        FlowingConversationsTitleView()
                     }
                 }
                 .padding(.top, 44)

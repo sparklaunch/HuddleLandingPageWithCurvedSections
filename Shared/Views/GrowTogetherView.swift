@@ -11,7 +11,7 @@ struct GrowTogetherView: View {
     var body: some View {
         ZStack {
             Color("BackgroundColor")
-            VStack {
+            VStack(spacing: .zero) {
                 GrowTogetherIllustrationView()
                 GrowTogetherTitleView()
             }
