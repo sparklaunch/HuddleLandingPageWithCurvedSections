@@ -21,6 +21,9 @@ struct ContentView: View {
                     Spacer()
                         .frame(height: 48)
                     HeaderIllustrationView()
+                    Spacer()
+                        .frame(height: 64)
+                    FiguresView()
                 }
                 .padding(.top, 44)
             }
