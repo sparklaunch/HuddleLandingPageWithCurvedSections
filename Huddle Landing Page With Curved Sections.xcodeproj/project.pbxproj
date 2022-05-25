@@ -19,6 +19,7 @@
 		90E89C3F283DA78000BD2505 /* HeaderIllustrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E89C3E283DA78000BD2505 /* HeaderIllustrationView.swift */; };
 		90E89C41283DA7F500BD2505 /* FiguresView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E89C40283DA7F500BD2505 /* FiguresView.swift */; };
 		90E89C43283DA80300BD2505 /* FigureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E89C42283DA80300BD2505 /* FigureView.swift */; };
+		90E89C45283DA9EC00BD2505 /* FirstTransitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E89C44283DA9EC00BD2505 /* FirstTransitionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		90E89C3E283DA78000BD2505 /* HeaderIllustrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderIllustrationView.swift; sourceTree = "<group>"; };
 		90E89C40283DA7F500BD2505 /* FiguresView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiguresView.swift; sourceTree = "<group>"; };
 		90E89C42283DA80300BD2505 /* FigureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FigureView.swift; sourceTree = "<group>"; };
+		90E89C44283DA9EC00BD2505 /* FirstTransitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTransitionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				90E89C3E283DA78000BD2505 /* HeaderIllustrationView.swift */,
 				90E89C40283DA7F500BD2505 /* FiguresView.swift */,
 				90E89C42283DA80300BD2505 /* FigureView.swift */,
+				90E89C44283DA9EC00BD2505 /* FirstTransitionView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -224,6 +227,7 @@
 				90E89C27283C8D6000BD2505 /* HuddleLandingPageWithCurvedSectionsApp.swift in Sources */,
 				90E89C3D283DA6DF00BD2505 /* GetStartedButtonView.swift in Sources */,
 				90E89C3B283DA5F300BD2505 /* HeaderTitleView.swift in Sources */,
+				90E89C45283DA9EC00BD2505 /* FirstTransitionView.swift in Sources */,
 				90E89C41283DA7F500BD2505 /* FiguresView.swift in Sources */,
 				90E89C39283DA50500BD2505 /* TopNavigationView.swift in Sources */,
 			);

@@ -24,6 +24,7 @@ struct ContentView: View {
                     Spacer()
                         .frame(height: 64)
                     FiguresView()
+                    FirstTransitionView()
                 }
                 .padding(.top, 44)
             }
