@@ -13,6 +13,7 @@ struct GrowTogetherView: View {
             Color("BackgroundColor")
             VStack {
                 GrowTogetherIllustrationView()
+                GrowTogetherTitleView()
             }
         }
         .fixedSize(horizontal: false, vertical: true)
