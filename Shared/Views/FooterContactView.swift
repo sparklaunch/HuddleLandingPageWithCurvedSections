@@ -18,6 +18,7 @@ struct FooterContactView: View {
                 Text("Phone: +1-543-123-4567")
                     .foregroundColor(.white)
             }
+            .fixedSize(horizontal: true, vertical: true)
             HStack(spacing: 16) {
                 Image(decorative: "Email")
                     .resizable()
@@ -26,6 +27,7 @@ struct FooterContactView: View {
                 Text("example@company.com")
                     .foregroundColor(.white)
             }
+            .fixedSize(horizontal: true, vertical: true)
         }
     }
 }
