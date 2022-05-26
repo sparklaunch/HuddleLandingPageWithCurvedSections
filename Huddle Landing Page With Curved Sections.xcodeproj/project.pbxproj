@@ -44,6 +44,10 @@
 		90E89C72283F2C6900BD2505 /* FooterContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E89C71283F2C6900BD2505 /* FooterContactView.swift */; };
 		90E89C74283F2D3200BD2505 /* FooterSocialMediaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E89C73283F2D3200BD2505 /* FooterSocialMediaView.swift */; };
 		90E89C76283F2D6000BD2505 /* FooterSocialMediaItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E89C75283F2D6000BD2505 /* FooterSocialMediaItemView.swift */; };
+		90E89C78283F2F3700BD2505 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E89C77283F2F3700BD2505 /* HeaderView.swift */; };
+		90E89C7A283F2F7300BD2505 /* GrowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E89C79283F2F7300BD2505 /* GrowView.swift */; };
+		90E89C7C283F2F9F00BD2505 /* FlowingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E89C7B283F2F9F00BD2505 /* FlowingView.swift */; };
+		90E89C7E283F2FCC00BD2505 /* UsersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E89C7D283F2FCC00BD2505 /* UsersView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -84,6 +88,10 @@
 		90E89C71283F2C6900BD2505 /* FooterContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterContactView.swift; sourceTree = "<group>"; };
 		90E89C73283F2D3200BD2505 /* FooterSocialMediaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterSocialMediaView.swift; sourceTree = "<group>"; };
 		90E89C75283F2D6000BD2505 /* FooterSocialMediaItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterSocialMediaItemView.swift; sourceTree = "<group>"; };
+		90E89C77283F2F3700BD2505 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		90E89C79283F2F7300BD2505 /* GrowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrowView.swift; sourceTree = "<group>"; };
+		90E89C7B283F2F9F00BD2505 /* FlowingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowingView.swift; sourceTree = "<group>"; };
+		90E89C7D283F2FCC00BD2505 /* UsersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,6 +192,10 @@
 				90E89C71283F2C6900BD2505 /* FooterContactView.swift */,
 				90E89C73283F2D3200BD2505 /* FooterSocialMediaView.swift */,
 				90E89C75283F2D6000BD2505 /* FooterSocialMediaItemView.swift */,
+				90E89C77283F2F3700BD2505 /* HeaderView.swift */,
+				90E89C79283F2F7300BD2505 /* GrowView.swift */,
+				90E89C7B283F2F9F00BD2505 /* FlowingView.swift */,
+				90E89C7D283F2FCC00BD2505 /* UsersView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -315,6 +327,7 @@
 				90E89C6A283F2A6000BD2505 /* SubscribeButtonView.swift in Sources */,
 				90E89C61283F26DA00BD2505 /* FooterTransitionView.swift in Sources */,
 				90E89C55283F249E00BD2505 /* YourUsersView.swift in Sources */,
+				90E89C7A283F2F7300BD2505 /* GrowView.swift in Sources */,
 				90E89C4B283DAB1A00BD2505 /* GrowTogetherTitleView.swift in Sources */,
 				90E89C3D283DA6DF00BD2505 /* GetStartedButtonView.swift in Sources */,
 				90E89C6C283F2AFA00BD2505 /* FooterContentView.swift in Sources */,
@@ -324,6 +337,9 @@
 				90E89C6E283F2B0C00BD2505 /* FooterLogoView.swift in Sources */,
 				90E89C49283DAA5200BD2505 /* GrowTogetherIllustrationView.swift in Sources */,
 				90E89C3B283DA5F300BD2505 /* HeaderTitleView.swift in Sources */,
+				90E89C78283F2F3700BD2505 /* HeaderView.swift in Sources */,
+				90E89C7E283F2FCC00BD2505 /* UsersView.swift in Sources */,
+				90E89C7C283F2F9F00BD2505 /* FlowingView.swift in Sources */,
 				90E89C5F283F26C400BD2505 /* FooterView.swift in Sources */,
 				90E89C45283DA9EC00BD2505 /* FirstTransitionView.swift in Sources */,
 				90E89C70283F2BD000BD2505 /* FooterTitleView.swift in Sources */,
