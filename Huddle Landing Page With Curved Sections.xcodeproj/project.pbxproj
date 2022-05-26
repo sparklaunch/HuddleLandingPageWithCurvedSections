@@ -38,6 +38,8 @@
 		90E89C66283F27FB00BD2505 /* CustomTextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E89C65283F27FB00BD2505 /* CustomTextFieldStyle.swift */; };
 		90E89C68283F2A2500BD2505 /* NewsLetterTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E89C67283F2A2500BD2505 /* NewsLetterTitleView.swift */; };
 		90E89C6A283F2A6000BD2505 /* SubscribeButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E89C69283F2A6000BD2505 /* SubscribeButtonView.swift */; };
+		90E89C6C283F2AFA00BD2505 /* FooterContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E89C6B283F2AFA00BD2505 /* FooterContentView.swift */; };
+		90E89C6E283F2B0C00BD2505 /* FooterLogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E89C6D283F2B0C00BD2505 /* FooterLogoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,6 +74,8 @@
 		90E89C65283F27FB00BD2505 /* CustomTextFieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextFieldStyle.swift; sourceTree = "<group>"; };
 		90E89C67283F2A2500BD2505 /* NewsLetterTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsLetterTitleView.swift; sourceTree = "<group>"; };
 		90E89C69283F2A6000BD2505 /* SubscribeButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscribeButtonView.swift; sourceTree = "<group>"; };
+		90E89C6B283F2AFA00BD2505 /* FooterContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterContentView.swift; sourceTree = "<group>"; };
+		90E89C6D283F2B0C00BD2505 /* FooterLogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterLogoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +170,8 @@
 				90E89C62283F272C00BD2505 /* NewsLetterView.swift */,
 				90E89C67283F2A2500BD2505 /* NewsLetterTitleView.swift */,
 				90E89C69283F2A6000BD2505 /* SubscribeButtonView.swift */,
+				90E89C6B283F2AFA00BD2505 /* FooterContentView.swift */,
+				90E89C6D283F2B0C00BD2505 /* FooterLogoView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -298,9 +304,11 @@
 				90E89C55283F249E00BD2505 /* YourUsersView.swift in Sources */,
 				90E89C4B283DAB1A00BD2505 /* GrowTogetherTitleView.swift in Sources */,
 				90E89C3D283DA6DF00BD2505 /* GetStartedButtonView.swift in Sources */,
+				90E89C6C283F2AFA00BD2505 /* FooterContentView.swift in Sources */,
 				90E89C5D283F265400BD2505 /* AskView.swift in Sources */,
 				90E89C47283DAA3600BD2505 /* GrowTogetherView.swift in Sources */,
 				90E89C57283F24BD00BD2505 /* YourUsersIllustrationView.swift in Sources */,
+				90E89C6E283F2B0C00BD2505 /* FooterLogoView.swift in Sources */,
 				90E89C49283DAA5200BD2505 /* GrowTogetherIllustrationView.swift in Sources */,
 				90E89C3B283DA5F300BD2505 /* HeaderTitleView.swift in Sources */,
 				90E89C5F283F26C400BD2505 /* FooterView.swift in Sources */,

@@ -13,11 +13,13 @@ struct FooterView: View {
             FooterTransitionView()
             ZStack {
                 Color("TitleColor")
-                VStack {
+                VStack(alignment: .leading, spacing: 32) {
                     NewsLetterView()
+                    FooterContentView()
                 }
                 .padding(.vertical, 32)
             }
+            .fixedSize(horizontal: false, vertical: true)
         }
     }
 }
