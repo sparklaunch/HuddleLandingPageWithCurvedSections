@@ -29,6 +29,7 @@
 		90E89C53283F0CBF00BD2505 /* ThirdTransitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E89C52283F0CBF00BD2505 /* ThirdTransitionView.swift */; };
 		90E89C55283F249E00BD2505 /* YourUsersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E89C54283F249E00BD2505 /* YourUsersView.swift */; };
 		90E89C57283F24BD00BD2505 /* YourUsersIllustrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E89C56283F24BD00BD2505 /* YourUsersIllustrationView.swift */; };
+		90E89C59283F251E00BD2505 /* YourUsersTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E89C58283F251E00BD2505 /* YourUsersTitleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		90E89C52283F0CBF00BD2505 /* ThirdTransitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdTransitionView.swift; sourceTree = "<group>"; };
 		90E89C54283F249E00BD2505 /* YourUsersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourUsersView.swift; sourceTree = "<group>"; };
 		90E89C56283F24BD00BD2505 /* YourUsersIllustrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourUsersIllustrationView.swift; sourceTree = "<group>"; };
+		90E89C58283F251E00BD2505 /* YourUsersTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourUsersTitleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +141,7 @@
 				90E89C52283F0CBF00BD2505 /* ThirdTransitionView.swift */,
 				90E89C54283F249E00BD2505 /* YourUsersView.swift */,
 				90E89C56283F24BD00BD2505 /* YourUsersIllustrationView.swift */,
+				90E89C58283F251E00BD2505 /* YourUsersTitleView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -249,6 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				90E89C4D283DABE800BD2505 /* SecondTransitionView.swift in Sources */,
+				90E89C59283F251E00BD2505 /* YourUsersTitleView.swift in Sources */,
 				90E89C43283DA80300BD2505 /* FigureView.swift in Sources */,
 				90E89C29283C8D6000BD2505 /* ContentView.swift in Sources */,
 				90E89C3F283DA78000BD2505 /* HeaderIllustrationView.swift in Sources */,

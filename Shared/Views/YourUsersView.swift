@@ -11,8 +11,9 @@ struct YourUsersView: View {
     var body: some View {
         ZStack {
             Color("BackgroundColor")
-            VStack {
+            VStack(spacing: 24) {
                 YourUsersIllustrationView()
+                YourUsersTitleView()
             }
         }
         .fixedSize(horizontal: false, vertical: true)
