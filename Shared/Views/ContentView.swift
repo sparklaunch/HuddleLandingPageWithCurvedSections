@@ -35,6 +35,7 @@ struct ContentView: View {
                     .padding(.bottom, 64)
                     VStack(spacing: .zero) {
                         ThirdTransitionView()
+                        YourUsersView()
                     }
                 }
                 .padding(.top, 44)
