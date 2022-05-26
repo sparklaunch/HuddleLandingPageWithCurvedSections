@@ -30,6 +30,7 @@
 		90E89C55283F249E00BD2505 /* YourUsersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E89C54283F249E00BD2505 /* YourUsersView.swift */; };
 		90E89C57283F24BD00BD2505 /* YourUsersIllustrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E89C56283F24BD00BD2505 /* YourUsersIllustrationView.swift */; };
 		90E89C59283F251E00BD2505 /* YourUsersTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E89C58283F251E00BD2505 /* YourUsersTitleView.swift */; };
+		90E89C5B283F25D000BD2505 /* FourthTransitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E89C5A283F25D000BD2505 /* FourthTransitionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		90E89C54283F249E00BD2505 /* YourUsersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourUsersView.swift; sourceTree = "<group>"; };
 		90E89C56283F24BD00BD2505 /* YourUsersIllustrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourUsersIllustrationView.swift; sourceTree = "<group>"; };
 		90E89C58283F251E00BD2505 /* YourUsersTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourUsersTitleView.swift; sourceTree = "<group>"; };
+		90E89C5A283F25D000BD2505 /* FourthTransitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthTransitionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +144,7 @@
 				90E89C54283F249E00BD2505 /* YourUsersView.swift */,
 				90E89C56283F24BD00BD2505 /* YourUsersIllustrationView.swift */,
 				90E89C58283F251E00BD2505 /* YourUsersTitleView.swift */,
+				90E89C5A283F25D000BD2505 /* FourthTransitionView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -270,6 +273,7 @@
 				90E89C45283DA9EC00BD2505 /* FirstTransitionView.swift in Sources */,
 				90E89C41283DA7F500BD2505 /* FiguresView.swift in Sources */,
 				90E89C39283DA50500BD2505 /* TopNavigationView.swift in Sources */,
+				90E89C5B283F25D000BD2505 /* FourthTransitionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

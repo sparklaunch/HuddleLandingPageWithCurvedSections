@@ -15,6 +15,7 @@ struct YourUsersView: View {
                 YourUsersIllustrationView()
                 YourUsersTitleView()
             }
+            .padding(.bottom, 24)
         }
         .fixedSize(horizontal: false, vertical: true)
     }
