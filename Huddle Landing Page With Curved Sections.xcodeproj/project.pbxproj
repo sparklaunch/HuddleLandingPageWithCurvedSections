@@ -32,6 +32,8 @@
 		90E89C59283F251E00BD2505 /* YourUsersTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E89C58283F251E00BD2505 /* YourUsersTitleView.swift */; };
 		90E89C5B283F25D000BD2505 /* FourthTransitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E89C5A283F25D000BD2505 /* FourthTransitionView.swift */; };
 		90E89C5D283F265400BD2505 /* AskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E89C5C283F265400BD2505 /* AskView.swift */; };
+		90E89C5F283F26C400BD2505 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E89C5E283F26C400BD2505 /* FooterView.swift */; };
+		90E89C61283F26DA00BD2505 /* FooterTransitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E89C60283F26DA00BD2505 /* FooterTransitionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +62,8 @@
 		90E89C58283F251E00BD2505 /* YourUsersTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourUsersTitleView.swift; sourceTree = "<group>"; };
 		90E89C5A283F25D000BD2505 /* FourthTransitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthTransitionView.swift; sourceTree = "<group>"; };
 		90E89C5C283F265400BD2505 /* AskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AskView.swift; sourceTree = "<group>"; };
+		90E89C5E283F26C400BD2505 /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
+		90E89C60283F26DA00BD2505 /* FooterTransitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterTransitionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +152,8 @@
 				90E89C58283F251E00BD2505 /* YourUsersTitleView.swift */,
 				90E89C5A283F25D000BD2505 /* FourthTransitionView.swift */,
 				90E89C5C283F265400BD2505 /* AskView.swift */,
+				90E89C5E283F26C400BD2505 /* FooterView.swift */,
+				90E89C60283F26DA00BD2505 /* FooterTransitionView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -266,6 +272,7 @@
 				90E89C53283F0CBF00BD2505 /* ThirdTransitionView.swift in Sources */,
 				90E89C4F283DAC6100BD2505 /* FlowingConversationsIllustrationView.swift in Sources */,
 				90E89C27283C8D6000BD2505 /* HuddleLandingPageWithCurvedSectionsApp.swift in Sources */,
+				90E89C61283F26DA00BD2505 /* FooterTransitionView.swift in Sources */,
 				90E89C55283F249E00BD2505 /* YourUsersView.swift in Sources */,
 				90E89C4B283DAB1A00BD2505 /* GrowTogetherTitleView.swift in Sources */,
 				90E89C3D283DA6DF00BD2505 /* GetStartedButtonView.swift in Sources */,
@@ -274,6 +281,7 @@
 				90E89C57283F24BD00BD2505 /* YourUsersIllustrationView.swift in Sources */,
 				90E89C49283DAA5200BD2505 /* GrowTogetherIllustrationView.swift in Sources */,
 				90E89C3B283DA5F300BD2505 /* HeaderTitleView.swift in Sources */,
+				90E89C5F283F26C400BD2505 /* FooterView.swift in Sources */,
 				90E89C45283DA9EC00BD2505 /* FirstTransitionView.swift in Sources */,
 				90E89C41283DA7F500BD2505 /* FiguresView.swift in Sources */,
 				90E89C39283DA50500BD2505 /* TopNavigationView.swift in Sources */,

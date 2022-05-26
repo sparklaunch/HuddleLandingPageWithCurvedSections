@@ -40,6 +40,7 @@ struct ContentView: View {
                     }
                     AskView()
                         .padding(.vertical, 64)
+                    FooterView()
                 }
                 .padding(.top, 44)
             }
