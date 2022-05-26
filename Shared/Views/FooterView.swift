@@ -9,8 +9,15 @@ import SwiftUI
 
 struct FooterView: View {
     var body: some View {
-        VStack {
+        VStack(spacing: .zero) {
             FooterTransitionView()
+            ZStack {
+                Color("TitleColor")
+                VStack {
+                    NewsLetterView()
+                }
+                .padding(.vertical, 32)
+            }
         }
     }
 }
