@@ -162,40 +162,13 @@
 			isa = PBXGroup;
 			children = (
 				90E89C18283C8D5F00BD2505 /* ContentView.swift */,
-				90E89C38283DA50500BD2505 /* TopNavigationView.swift */,
-				90E89C3A283DA5F300BD2505 /* HeaderTitleView.swift */,
-				90E89C3C283DA6DF00BD2505 /* GetStartedButtonView.swift */,
-				90E89C3E283DA78000BD2505 /* HeaderIllustrationView.swift */,
-				90E89C40283DA7F500BD2505 /* FiguresView.swift */,
-				90E89C42283DA80300BD2505 /* FigureView.swift */,
-				90E89C44283DA9EC00BD2505 /* FirstTransitionView.swift */,
-				90E89C46283DAA3600BD2505 /* GrowTogetherView.swift */,
-				90E89C48283DAA5200BD2505 /* GrowTogetherIllustrationView.swift */,
-				90E89C4A283DAB1A00BD2505 /* GrowTogetherTitleView.swift */,
-				90E89C4C283DABE800BD2505 /* SecondTransitionView.swift */,
-				90E89C4E283DAC6100BD2505 /* FlowingConversationsIllustrationView.swift */,
-				90E89C50283DADCC00BD2505 /* FlowingConversationsTitleView.swift */,
-				90E89C52283F0CBF00BD2505 /* ThirdTransitionView.swift */,
-				90E89C54283F249E00BD2505 /* YourUsersView.swift */,
-				90E89C56283F24BD00BD2505 /* YourUsersIllustrationView.swift */,
-				90E89C58283F251E00BD2505 /* YourUsersTitleView.swift */,
-				90E89C5A283F25D000BD2505 /* FourthTransitionView.swift */,
-				90E89C5C283F265400BD2505 /* AskView.swift */,
-				90E89C5E283F26C400BD2505 /* FooterView.swift */,
-				90E89C60283F26DA00BD2505 /* FooterTransitionView.swift */,
-				90E89C62283F272C00BD2505 /* NewsLetterView.swift */,
-				90E89C67283F2A2500BD2505 /* NewsLetterTitleView.swift */,
-				90E89C69283F2A6000BD2505 /* SubscribeButtonView.swift */,
-				90E89C6B283F2AFA00BD2505 /* FooterContentView.swift */,
-				90E89C6D283F2B0C00BD2505 /* FooterLogoView.swift */,
-				90E89C6F283F2BD000BD2505 /* FooterTitleView.swift */,
-				90E89C71283F2C6900BD2505 /* FooterContactView.swift */,
-				90E89C73283F2D3200BD2505 /* FooterSocialMediaView.swift */,
-				90E89C75283F2D6000BD2505 /* FooterSocialMediaItemView.swift */,
-				90E89C77283F2F3700BD2505 /* HeaderView.swift */,
-				90E89C79283F2F7300BD2505 /* GrowView.swift */,
-				90E89C7B283F2F9F00BD2505 /* FlowingView.swift */,
-				90E89C7D283F2FCC00BD2505 /* UsersView.swift */,
+				90E89C80283F302F00BD2505 /* Misc */,
+				90E89C85283F30C600BD2505 /* Footer */,
+				90E89C84283F30B000BD2505 /* Users */,
+				90E89C83283F306F00BD2505 /* Flowing */,
+				90E89C82283F305700BD2505 /* Grow */,
+				90E89C81283F304300BD2505 /* Figures */,
+				90E89C7F283F301100BD2505 /* Header */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -213,6 +186,105 @@
 				90E89C65283F27FB00BD2505 /* CustomTextFieldStyle.swift */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		90E89C7F283F301100BD2505 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				90E89C77283F2F3700BD2505 /* HeaderView.swift */,
+				90E89C38283DA50500BD2505 /* TopNavigationView.swift */,
+				90E89C3A283DA5F300BD2505 /* HeaderTitleView.swift */,
+				90E89C3E283DA78000BD2505 /* HeaderIllustrationView.swift */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		90E89C80283F302F00BD2505 /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				90E89C3C283DA6DF00BD2505 /* GetStartedButtonView.swift */,
+				90E89C5C283F265400BD2505 /* AskView.swift */,
+			);
+			path = Misc;
+			sourceTree = "<group>";
+		};
+		90E89C81283F304300BD2505 /* Figures */ = {
+			isa = PBXGroup;
+			children = (
+				90E89C40283DA7F500BD2505 /* FiguresView.swift */,
+				90E89C42283DA80300BD2505 /* FigureView.swift */,
+			);
+			path = Figures;
+			sourceTree = "<group>";
+		};
+		90E89C82283F305700BD2505 /* Grow */ = {
+			isa = PBXGroup;
+			children = (
+				90E89C79283F2F7300BD2505 /* GrowView.swift */,
+				90E89C44283DA9EC00BD2505 /* FirstTransitionView.swift */,
+				90E89C46283DAA3600BD2505 /* GrowTogetherView.swift */,
+				90E89C48283DAA5200BD2505 /* GrowTogetherIllustrationView.swift */,
+				90E89C4A283DAB1A00BD2505 /* GrowTogetherTitleView.swift */,
+				90E89C4C283DABE800BD2505 /* SecondTransitionView.swift */,
+			);
+			path = Grow;
+			sourceTree = "<group>";
+		};
+		90E89C83283F306F00BD2505 /* Flowing */ = {
+			isa = PBXGroup;
+			children = (
+				90E89C7B283F2F9F00BD2505 /* FlowingView.swift */,
+				90E89C4E283DAC6100BD2505 /* FlowingConversationsIllustrationView.swift */,
+				90E89C50283DADCC00BD2505 /* FlowingConversationsTitleView.swift */,
+			);
+			path = Flowing;
+			sourceTree = "<group>";
+		};
+		90E89C84283F30B000BD2505 /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				90E89C52283F0CBF00BD2505 /* ThirdTransitionView.swift */,
+				90E89C7D283F2FCC00BD2505 /* UsersView.swift */,
+				90E89C54283F249E00BD2505 /* YourUsersView.swift */,
+				90E89C56283F24BD00BD2505 /* YourUsersIllustrationView.swift */,
+				90E89C58283F251E00BD2505 /* YourUsersTitleView.swift */,
+				90E89C5A283F25D000BD2505 /* FourthTransitionView.swift */,
+			);
+			path = Users;
+			sourceTree = "<group>";
+		};
+		90E89C85283F30C600BD2505 /* Footer */ = {
+			isa = PBXGroup;
+			children = (
+				90E89C87283F313700BD2505 /* Content */,
+				90E89C86283F311800BD2505 /* Newsletter */,
+				90E89C5E283F26C400BD2505 /* FooterView.swift */,
+				90E89C60283F26DA00BD2505 /* FooterTransitionView.swift */,
+			);
+			path = Footer;
+			sourceTree = "<group>";
+		};
+		90E89C86283F311800BD2505 /* Newsletter */ = {
+			isa = PBXGroup;
+			children = (
+				90E89C62283F272C00BD2505 /* NewsLetterView.swift */,
+				90E89C67283F2A2500BD2505 /* NewsLetterTitleView.swift */,
+				90E89C69283F2A6000BD2505 /* SubscribeButtonView.swift */,
+			);
+			path = Newsletter;
+			sourceTree = "<group>";
+		};
+		90E89C87283F313700BD2505 /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				90E89C6B283F2AFA00BD2505 /* FooterContentView.swift */,
+				90E89C6D283F2B0C00BD2505 /* FooterLogoView.swift */,
+				90E89C6F283F2BD000BD2505 /* FooterTitleView.swift */,
+				90E89C71283F2C6900BD2505 /* FooterContactView.swift */,
+				90E89C73283F2D3200BD2505 /* FooterSocialMediaView.swift */,
+				90E89C75283F2D6000BD2505 /* FooterSocialMediaItemView.swift */,
+			);
+			path = Content;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
