@@ -28,9 +28,13 @@ struct ContentView: View {
                         SecondTransitionView()
                     }
                     .padding(.bottom, 64)
-                    VStack {
+                    VStack(spacing: 16) {
                         FlowingConversationsIllustrationView()
                         FlowingConversationsTitleView()
+                    }
+                    .padding(.bottom, 64)
+                    VStack(spacing: .zero) {
+                        ThirdTransitionView()
                     }
                 }
                 .padding(.top, 44)
