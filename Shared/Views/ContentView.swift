@@ -38,6 +38,8 @@ struct ContentView: View {
                         YourUsersView()
                         FourthTransitionView()
                     }
+                    AskView()
+                        .padding(.vertical, 64)
                 }
                 .padding(.top, 44)
             }
