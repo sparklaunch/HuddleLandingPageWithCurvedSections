@@ -40,6 +40,7 @@
 		90E89C6A283F2A6000BD2505 /* SubscribeButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E89C69283F2A6000BD2505 /* SubscribeButtonView.swift */; };
 		90E89C6C283F2AFA00BD2505 /* FooterContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E89C6B283F2AFA00BD2505 /* FooterContentView.swift */; };
 		90E89C6E283F2B0C00BD2505 /* FooterLogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E89C6D283F2B0C00BD2505 /* FooterLogoView.swift */; };
+		90E89C70283F2BD000BD2505 /* FooterTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E89C6F283F2BD000BD2505 /* FooterTitleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -76,6 +77,7 @@
 		90E89C69283F2A6000BD2505 /* SubscribeButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscribeButtonView.swift; sourceTree = "<group>"; };
 		90E89C6B283F2AFA00BD2505 /* FooterContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterContentView.swift; sourceTree = "<group>"; };
 		90E89C6D283F2B0C00BD2505 /* FooterLogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterLogoView.swift; sourceTree = "<group>"; };
+		90E89C6F283F2BD000BD2505 /* FooterTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterTitleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,6 +174,7 @@
 				90E89C69283F2A6000BD2505 /* SubscribeButtonView.swift */,
 				90E89C6B283F2AFA00BD2505 /* FooterContentView.swift */,
 				90E89C6D283F2B0C00BD2505 /* FooterLogoView.swift */,
+				90E89C6F283F2BD000BD2505 /* FooterTitleView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -313,6 +316,7 @@
 				90E89C3B283DA5F300BD2505 /* HeaderTitleView.swift in Sources */,
 				90E89C5F283F26C400BD2505 /* FooterView.swift in Sources */,
 				90E89C45283DA9EC00BD2505 /* FirstTransitionView.swift in Sources */,
+				90E89C70283F2BD000BD2505 /* FooterTitleView.swift in Sources */,
 				90E89C41283DA7F500BD2505 /* FiguresView.swift in Sources */,
 				90E89C68283F2A2500BD2505 /* NewsLetterTitleView.swift in Sources */,
 				90E89C39283DA50500BD2505 /* TopNavigationView.swift in Sources */,

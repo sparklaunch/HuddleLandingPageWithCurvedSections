@@ -9,8 +9,9 @@ import SwiftUI
 
 struct FooterContentView: View {
     var body: some View {
-        VStack(alignment: .leading) {
+        VStack(alignment: .leading, spacing: 24) {
             FooterLogoView()
+            FooterTitleView()
         }
         .padding()
     }
